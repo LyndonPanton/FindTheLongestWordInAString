@@ -16,6 +16,14 @@ body, html {
 
 
 /* HEADER */
+h1 {
+	padding: 1vh 0;
+	margin: 0;
+}
+
+header {
+	background-color: #D291BC;
+}
 
 
 
