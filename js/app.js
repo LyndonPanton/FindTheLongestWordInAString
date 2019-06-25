@@ -9,17 +9,22 @@ window.onload = function() {
 	}
 
 	function longest(string) {
-		let longest = ["", 0];
+		if (!string.length) {
+			document.getElementById("string-word").textContent = "???";
+			document.getElementById("number-value").textContent = "???";
+		} else {
+			let longest = ["", 0];
 
 
-		string.split(" ").forEach(function(word) {
-			if (word.length > longest[1]) {
-				longest[0] = word;
-				longest[1] = word.length;
-			}
-		});
+			string.split(" ").forEach(function(word) {
+				if (word.length > longest[1]) {
+					longest[0] = word;
+					longest[1] = word.length;
+				}
+			});
 
-		display(longest);
+			display(longest);
+		}
 	}
 
 	let form = document.getElementById("form");
