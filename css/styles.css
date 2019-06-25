@@ -41,3 +41,31 @@ footer {
 	font-size: 1.5em;
 	color: white;
 }
+
+.more-link {
+	color: black;
+}
+
+.more-link:active {
+	color: seagreen !important;
+}
+
+.more-link:focus {
+	color: cornflowerblue;
+}
+
+.more-link:hover {
+	color: crimson;
+}
+
+#copyright {
+	display: block;
+}
+
+#more {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	padding-top: 1vh;
+}
