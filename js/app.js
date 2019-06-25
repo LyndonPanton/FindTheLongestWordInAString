@@ -3,7 +3,12 @@
 window.onload = function() {
 	document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
 
-	function findLongestWord(string) {
+	function display(arr) {
+		document.getElementById("string-word").textContent = arr[0];
+		document.getElementById("number-value").textContent = arr[1];
+	}
+
+	function longest(string) {
 		let longest = ["", 0];
 
 
@@ -13,14 +18,14 @@ window.onload = function() {
 				longest[1] = word.length;
 			}
 		});
-		
-		return longest;
+
+		display(longest);
 	}
 
 	let form = document.getElementById("form");
 	form.addEventListener("submit", function(event) {
 		event.preventDefault();
 
-		findLongestWord(event.target.children[0].value);
+		longest(event.target.children[0].value);
 	});
 }
