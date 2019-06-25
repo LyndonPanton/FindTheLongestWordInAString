@@ -20,3 +20,7 @@
 > 1. This was done for one of freecodecamp's Basic Algorithm Scripting activities
 
 ## Preview
+![Screenhot 1](./img/screenshot1.png)
+![Screenhot 2](./img/screenshot2.png)
+![Screenhot 3](./img/screenshot3.png)
+![Screenhot 4](./img/screenshot4.png)
