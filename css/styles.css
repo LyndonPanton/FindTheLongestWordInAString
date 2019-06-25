@@ -32,3 +32,12 @@ header {
 
 
 /* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	min-width: 100%;
+	padding: 1vh 0;
+	background-color: #DF9881;
+	font-size: 1.5em;
+	color: white;
+}
