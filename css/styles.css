@@ -28,6 +28,43 @@ header {
 
 
 /* MAIN */
+main {
+	padding-top: 20vh;
+	font-size: 1.3em;
+}
+
+#form-string {
+	display: block;
+	margin: 0 auto 2vh;
+	border: none;
+	border-bottom: 1px black solid;
+	background-color: transparent;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+}
+
+#form-string::placeholder {
+	text-align: center;
+	font-style: italic;
+	color: white;
+}
+
+#form-submit {
+	display: block;
+	margin: 0 auto;
+	border: 3px #FEC8D8 solid;
+	border-radius: 5px;
+	padding: 4px 20px;
+	background-color: #FFDFD3;
+	font-family: "Lucida Bright", Georgia, serif;
+	font-size: 1.1em;
+}
+
+#form-submit:active {
+	background-color: #DF9881;
+	color: white;
+}
 
 
 
